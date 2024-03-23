@@ -17,6 +17,7 @@ public class ContactTest {
 	    WebElement btn=driver.findElement(By.id("submitButton"));
 	    btn.click();
 	    driver.findElement(By.xpath("//a[text()='Contacts']")).click();
+	    driver.findElement(By.cssSelector("img[alt='Create Contact...']")).click();
 	    
 	}
 

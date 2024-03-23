@@ -17,7 +17,7 @@ public class OrganizationsTest {
 	    WebElement btn=driver.findElement(By.id("submitButton"));
 	    btn.click();
 	    driver.findElement(By.xpath("//a[text()='Organizations']")).click();
-	   WebElement w= driver.findElements(By.cssSelector("img[alt='Create Organization...']"))
+	   WebElement w= driver.findElement(By.cssSelector("img[alt='Create Organization...']"));
 	    w.click();
 	    
 	}
